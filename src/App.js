@@ -7,6 +7,7 @@ import { RightSection } from './Section/RightSection';
 function App() {
   return (
     <Box className="container">
+      <Box className="verticalLine"></Box>
       <Sidebar />
       <RightSection/>
     </Box>
