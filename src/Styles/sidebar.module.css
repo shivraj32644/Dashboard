@@ -1,20 +1,42 @@
-.sidebar {
-  box-sizing: border-box;
+.mainBar {
   border: 1px solid #000;
+  box-sizing: border-box;
+  position: relative;
   width: 247px;
   height: 1024px;
-  
-
   background: #ffffff;
   border-right: 1px solid #e6e6e6;
 }
 
-.logo {
+.rectangle {
+  position: absolute;
+  width: 4px;
+  height: 33px;
+  left: 0px;
+  top: 190px;
+  background: #0500ff;
+}
+.line {
+  position: absolute;
+  width: 169px;
+  height: 0px;
+  left: 39px;
+  top: 578px;
+  border: 1px solid #dfdfdf;
+}
+.subMainBar {
+  border: 1px solid #000;
+  position: absolute;
+  width: 149px;
+  height: 799px;
+  left: 50px;
+  top: 84px;
+}
+.logo h1{
+  border: 1px solid #000;
   position: absolute;
   width: 125px;
   height: 44px;
-  left: 50px;
-  top: 84px;
   font-family: "Urbanist";
   font-style: normal;
   font-weight: 800;
@@ -25,74 +47,78 @@
   letter-spacing: -0.055em;
   color: #0038ff;
 }
-.bar {
-  border: 1px solid #000;
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 122px;
 
-position: absolute;
-width: 149px;
-height: 686.5px;
-left: 50px;
-top: 196.5px;
+.child {
+  border: 1px solid rgb(170, 34, 34);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 122px;
+  position: absolute;
+  width: 149px;
+  height: 686.5px;
+  left: 0px;
+  top: 110.5px;
 }
-.box1 {
+.child1 {
+  border: 2px dotted rgb(23, 95, 159);
   width: 161px;
-height: 314px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  height: 314px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  
 }
-.box2 {
+
+.child2 {
+  border: 2px dotted rgb(23, 95, 159);
   width: 144px;
-height: 196px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+  height: 196px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
-.item {
-  border: 1px solid #000;
+.frameI {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 25px;
-
-position: absolute;
-width: 161px;
-height: 19px;
-left: 0px;
-top: 0px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  /* position: absolute; */
+  width: 161px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
 }
-
-.item > img {
+.subFrameI {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
   width: 19px;
   height: 19px;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-
-.item > h3 {
+.subFrameI img {
+  width: 19px;
+  height: 19px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frameI p {
   width: 117px;
   height: 17px;
   font-family: "Urbanist";
   font-style: normal;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 91.5%;
   display: flex;
   align-items: center;
@@ -100,38 +126,4 @@ top: 0px;
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-
-.line {
-  
-position: absolute;
-width: 169px;
-height: 0px;
-left: 39px;
-top: 578px;
-
-border: 1px solid #DFDFDF;
-}
-.item2{
-  width: 100px;
-height: 14px;
-
-font-family: 'Urbanist';
-font-style: normal;
-font-weight: 800;
-font-size: 15px;
-line-height: 91.5%;
-/* identical to box height, or 14px */
-
-display: flex;
-align-items: center;
-
-color: #9E9E9E;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
 }
