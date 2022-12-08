@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 .mainBar {
   border: 1px solid #000;
@@ -198,7 +197,7 @@
 .frameI p {
   width: 117px;
   height: 17px;
-  
+
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -213,7 +212,7 @@
 .frameII p {
   width: 117px;
   height: 14px;
-  
+
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -228,7 +227,7 @@
 .frameIII p {
   width: 117px;
   height: 14px;
-  
+
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -243,7 +242,7 @@
 .frameIV p {
   width: 117px;
   height: 14px;
-  
+
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -258,7 +257,7 @@
 .frameV p {
   width: 117px;
   height: 14px;
-  
+
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -273,7 +272,127 @@
 .frameVI p {
   width: 117px;
   height: 14px;
-  
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Child2subFrameI img {
+  width: 19px;
+  height: 19px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Child2frameI {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 144px;
+  height: 19px;
+  left: 0px;
+  top: 436px;
+}
+.Child2frameI p {
+  width: 100px;
+  height: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Child2frameII {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 144px;
+  height: 19px;
+  left: 0px;
+  top: 495px;
+}
+.Child2frameII p {
+  width: 100px;
+  height: 13px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Child2frameIII {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 144px;
+  height: 19px;
+  left: 0px;
+  top: 554px;
+}
+.Child2frameIII p {
+  width: 100px;
+  height: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Child2frameIV {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 144px;
+  height: 19px;
+  left: 0px;
+  top: 613px;
+}
+.Child2frameIV p {
+  width: 100px;
+  height: 13px;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
