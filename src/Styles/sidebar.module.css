@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
 .mainBar {
   border: 1px solid #000;
   box-sizing: border-box;
@@ -37,9 +40,9 @@
   position: absolute;
   width: 125px;
   height: 44px;
-  font-family: "Urbanist";
+  /*  */
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 48px;
   line-height: 91.5%;
   display: flex;
@@ -174,9 +177,6 @@
 
   width: 19px;
   height: 19px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -188,17 +188,99 @@
   order: 0;
   flex-grow: 0;
 }
+.subFrameII img {
+  width: 19px;
+  height: 19px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 .frameI p {
   width: 117px;
   height: 17px;
-  font-family: "Urbanist";
+  
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 15px;
   line-height: 91.5%;
   display: flex;
   align-items: center;
   color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frameII p {
+  width: 117px;
+  height: 14px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frameIII p {
+  width: 117px;
+  height: 14px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frameIV p {
+  width: 117px;
+  height: 14px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frameV p {
+  width: 117px;
+  height: 14px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frameVI p {
+  width: 117px;
+  height: 14px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #9e9e9e;
   flex: none;
   order: 1;
   flex-grow: 0;
