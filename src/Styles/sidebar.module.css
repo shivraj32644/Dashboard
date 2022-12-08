@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 .mainBar {
-  border: 1px solid #000;
+  
   box-sizing: border-box;
   position: relative;
   width: 247px;
@@ -27,7 +27,7 @@
   border: 1px solid #dfdfdf;
 }
 .subMainBar {
-  border: 1px solid #000;
+  
   position: absolute;
   width: 149px;
   height: 799px;
@@ -35,7 +35,7 @@
   top: 84px;
 }
 .logo h1 {
-  border: 1px solid #000;
+  
   position: absolute;
   width: 125px;
   height: 44px;
@@ -51,7 +51,7 @@
 }
 
 .child {
-  border: 1px solid rgb(170, 34, 34);
+  /* border: 1px solid rgb(170, 34, 34); */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -64,7 +64,7 @@
   top: 110.5px;
 }
 .child1 {
-  border: 2px dotted rgb(23, 95, 159);
+  /* border: 2px dotted rgb(23, 95, 159); */
   width: 161px;
   height: 314px;
   flex: none;
@@ -73,7 +73,7 @@
 }
 
 .child2 {
-  border: 2px dotted rgb(23, 95, 159);
+  /* border: 2px dotted rgb(23, 95, 159); */
   width: 144px;
   height: 196px;
   flex: none;
