@@ -1,3 +1,16 @@
+.sidebar {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 247px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  border-right: 1px solid #e6e6e6;
+}
+
 .logo {
   position: absolute;
   width: 125px;
@@ -17,16 +30,56 @@
 .bar {
   border: 1px solid #000;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 122px;
-  position: absolute;
-  width: 149px;
-  height: 686.5px;
-  left: 50px;
-  top: 196.5px;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 122px;
+
+position: absolute;
+width: 149px;
+height: 686.5px;
+left: 50px;
+top: 196.5px;
 }
+.box1 {
+  width: 161px;
+height: 314px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.box2 {
+  width: 144px;
+height: 196px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.item {
+  border: 1px solid #000;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 25px;
+
+position: absolute;
+width: 161px;
+height: 19px;
+left: 0px;
+top: 0px;
+}
+
 .item > img {
   width: 19px;
   height: 19px;
@@ -34,41 +87,53 @@
   order: 0;
   flex-grow: 0;
 }
-.item {
-  border: 1px solid #000;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 25px;
-
-  position: absolute;
-  width: 161px;
-  height: 19px;
-  left: 0px;
-  top: 0px;
-}
 
 .item > h3 {
   width: 117px;
   height: 17px;
-
   font-family: "Urbanist";
   font-style: normal;
   font-weight: 800;
   font-size: 15px;
   line-height: 91.5%;
-  /* or 14px */
-
   display: flex;
   align-items: center;
-
   color: #000000;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+.line {
+  
+position: absolute;
+width: 169px;
+height: 0px;
+left: 39px;
+top: 578px;
+
+border: 1px solid #DFDFDF;
+}
+.item2{
+  width: 100px;
+height: 14px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 91.5%;
+/* identical to box height, or 14px */
+
+display: flex;
+align-items: center;
+
+color: #9E9E9E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
