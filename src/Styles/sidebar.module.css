@@ -32,7 +32,7 @@
   left: 50px;
   top: 84px;
 }
-.logo h1{
+.logo h1 {
   border: 1px solid #000;
   position: absolute;
   width: 125px;
@@ -68,7 +68,6 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  
 }
 
 .child2 {
@@ -81,26 +80,103 @@
 }
 
 .frameI {
+  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 25px;
-  /* position: absolute; */
+
+  position: absolute;
   width: 161px;
   height: 19px;
   left: 0px;
   top: 0px;
 }
+
+.frameII {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 161px;
+  height: 19px;
+  left: 0px;
+  top: 59px;
+}
+
+.frameIII {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 161px;
+  height: 19px;
+  left: 0px;
+  top: 118px;
+}
+
+.frameIV {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 161px;
+  height: 19px;
+  left: 0px;
+  top: 177px;
+}
+
+.frameV {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 161px;
+  height: 19px;
+  left: 0px;
+  top: 236px;
+}
+.frameVI {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 161px;
+  height: 19px;
+  left: 0px;
+  top: 295px;
+}
+
 .subFrameI {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 5px;
+
   width: 19px;
   height: 19px;
+
+  /* Inside auto layout */
+
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -118,7 +194,7 @@
   font-family: "Urbanist";
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 91.5%;
   display: flex;
   align-items: center;

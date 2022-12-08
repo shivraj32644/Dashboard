@@ -17,18 +17,37 @@ export const Sidebar = () => {
               </Box>
               <p>Overview</p>
             </Box>
-            <Box className={styles.frameI}>
-              <Box className={styles.subFrameI}>
+            <Box className={styles.frameII}>
+              <Box className={styles.subFrameII}>
                 <img src={img1} alt="" />
               </Box>
               <p>Overview</p>
             </Box>
-            <Box className={styles.frameI}>
-              <Box className={styles.subFrameI}>
+            <Box className={styles.frameIII}>
+              <Box className={styles.subFrameIII}>
                 <img src={img1} alt="" />
               </Box>
               <p>Overview</p>
             </Box>
+            <Box className={styles.frameIV}>
+              <Box className={styles.subFrameIV}>
+                <img src={img1} alt="" />
+              </Box>
+              <p>Overview</p>
+            </Box>
+            <Box className={styles.frameV}>
+              <Box className={styles.subFrameIV}>
+                <img src={img1} alt="" />
+              </Box>
+              <p>Overview</p>
+            </Box>
+            <Box className={styles.frameVI}>
+              <Box className={styles.subFrameVI}>
+                <img src={img1} alt="" />
+              </Box>
+              <p>Overview</p>
+            </Box>
+           
           </Box>
           <Box className={styles.child2}>
             
