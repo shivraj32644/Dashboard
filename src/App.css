@@ -2,9 +2,7 @@
     width: 1440px;
     height: 1024px;
     display: flex;
-    align-items: center;
     margin: auto;
-    /* justify-content: c; */
     border: 1px solid black;
     margin-top: 30px;
     margin-bottom: 30px;

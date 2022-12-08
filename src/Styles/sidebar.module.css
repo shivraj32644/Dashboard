@@ -1,11 +1,9 @@
 .sidebar {
   box-sizing: border-box;
-
-  position: absolute;
+  border: 1px solid #000;
   width: 247px;
   height: 1024px;
-  left: 0px;
-  top: 0px;
+  
 
   background: #ffffff;
   border-right: 1px solid #e6e6e6;
