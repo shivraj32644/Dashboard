@@ -25,7 +25,7 @@ export const TransferButton = ({setAmt,amt}) => {
           <AlertDialogHeader>Payment Confirmation</AlertDialogHeader>
           <AlertDialogCloseButton />
           <AlertDialogBody>
-            { amt == 0 ? "You Cannot make payment of 0 $" : `Are you sure you want to make payment  ${amt }?`}
+            { amt == 0 ? "You Cannot make payment of 0$" : `Are you sure you want to make payment of $${amt } ?`}
             
           </AlertDialogBody>
           <AlertDialogFooter>

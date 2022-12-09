@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+    border: 1px solid #000;
+  width: 655px;
+  height: 319px;
+}
+.chartBox{
+    border: 1px solid #000;
+    width: 418px;
+height: 319px;
+}
