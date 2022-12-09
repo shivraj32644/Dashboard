@@ -3,7 +3,7 @@
     height: 1024px;
     display: flex;
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.238);
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
