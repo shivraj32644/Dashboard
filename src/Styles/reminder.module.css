@@ -1,7 +1,8 @@
 .container {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   width: 209px;
   height: 319px;
+  text-align: center;
 }
 
 .container > p {
@@ -11,7 +12,7 @@
   position: absolute;
   width: 118px;
   height: 30px;
-  left: 446px;
+  left: 425px;
   top: 5px;
 }
 .reminder {
@@ -24,46 +25,22 @@
   background: #0038ff;
   border-radius: 15px;
 }
-.reminder p:nth-child(1) {
+.reminder p {
   position: absolute;
   width: 148px;
   height: 33px;
   left: 25px;
   top: 20px;
-
-  font-family: "Urbanist";
   font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 15px;
   line-height: 91.5%;
-  /* or 13px */
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #ffffff;
 }
 
-.detail {
-  position: absolute;
-  width: 148px;
-  height: 33px;
-  left: 25px;
-  top: 147px;
-
-  font-family: "Urbanist";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 141.5%;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #ffffff;
-}
 
 .reminder img {
   position: absolute;
@@ -83,5 +60,5 @@
   border-radius: 10px;
   top: 199px;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 13px;
 }
