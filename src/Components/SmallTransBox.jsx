@@ -4,6 +4,12 @@ import { Box, useDisclosure } from '@chakra-ui/react'
 import team from '../Assets/team.png'
 import { useState } from 'react'
 import { TransferButton } from './TransferButton'
+import man1 from '../Assets/man1.png'
+import man2 from '../Assets/man2.png'
+import man3 from '../Assets/man3.png'
+import man4 from '../Assets/man4.png'
+import women1 from '../Assets/women1.png'
+import plusIcon from '../Assets/plusIcon.png'
 export const SmallTransBox = () => {
   const [amt, setAmt] = useState(450)
   
@@ -23,7 +29,14 @@ export const SmallTransBox = () => {
           {/* <button onClick={() => setAmt(0)} >Transfer</button> */}
           <TransferButton amt = {amt} setAmt={setAmt}  />
         </Box>
-        <Box className={style.icon}></Box>
+        <Box className={style.icon}>
+          <img style={{marginLeft:"0px"}}  src={man1} alt="man1" />
+          <img  src={man2} alt="man2" />
+          <img  src={man3} alt="man3" />
+          <img  src={man4} alt="man4" />
+          <img  src={women1} alt="women1" />
+          <img  src={plusIcon} alt="plus" />
+        </Box>
 
       </Box>
     </Box>
