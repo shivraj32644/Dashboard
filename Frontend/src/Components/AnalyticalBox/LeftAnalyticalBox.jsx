@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Styles/LeftAnalyticalBox.module.css";
 import { ReminderBox } from "../ReminderBox";
 import { recentTransactionData } from "../../Data";
@@ -9,13 +9,27 @@ import { LineChart } from "../Chart/LineChart";
 // * This is left analytical box with line chart which present left side of reminder box
 
 export const LeftAnalyticalBox = () => {
+  const [fetchData, setFetchData] = useState([]);
+
+  useEffect(() => {
+    fetch(`https://sales-dashboard.cyclic.app/transaction`)
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+          setFetchData(res)
+      }).catch((err) => {
+      
+    })
+  },[])
+
+
   const [data, setData] = useState({
     labels: recentTransactionData.map((e) => e.Month),
     datasets: [
       {
         type: "line",
         label: "Bar Dataset",
-        data: recentTransactionData.map((e) => ` ${e.Amount}`),
+        data: recentTransactionData.map((e) => e.Amount),
 
         height: "100%",
         width: "100%",
