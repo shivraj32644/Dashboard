@@ -19,11 +19,9 @@ Live Link - https://dashboard-corpcare.vercel.app/
 <br>
 
 
-  <video controls="true" allowfullscreen="true" poster="./ReadmeAssets/Dashboard.png">
-    <source src="./ReadmeAssets/intro.mp4" type="video/mp4">
-    <source src="./ReadmeAssets/intro.ogg" type="video/ogg">
-    <source src="./ReadmeAssets/intro.webm" type="video/webm">
-  </video>
+  <figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/1YUv8cDKCoaQLb3OntmZrkBgbJrmfrkVS/view?usp=share_link" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 <br>
 
