@@ -27,6 +27,13 @@ app.get('/transaction', (req, res) => {
     }
 });
 
+app.get('/*', (req, res) => {
+    res.send({
+        "route-one":"/saved",
+        "route-two":"/transaction"
+    })
+})
+
 const PORT = process.env.PORT || 6999;
 app.listen(PORT, function () {
     console.log(`http://localhost:${PORT}`);
