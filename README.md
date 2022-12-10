@@ -18,13 +18,13 @@ Live Link - https://dashboard-corpcare.vercel.app/
 ### A small Video Intro of My project hope you like it
 <br>
 
-<figure class="video_container">
+
   <video controls="true" allowfullscreen="true" poster="./ReadmeAssets/Dashboard.png">
     <source src="./ReadmeAssets/intro.mp4" type="video/mp4">
     <source src="./ReadmeAssets/intro.ogg" type="video/ogg">
     <source src="./ReadmeAssets/intro.webm" type="video/webm">
   </video>
-</figure>
+
 <br>
 
 # Thanks 
