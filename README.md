@@ -19,9 +19,8 @@ Live Link - https://dashboard-corpcare.vercel.app/
 <br>
 
 
-  <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1YUv8cDKCoaQLb3OntmZrkBgbJrmfrkVS/view?usp=share_link" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+<iframe src="https://drive.google.com/file/d/1YUv8cDKCoaQLb3OntmZrkBgbJrmfrkVS/view?usp=share_link" frameborder="0" allowfullscreen="true"> </iframe>
+
 
 <br>
 
