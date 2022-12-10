@@ -6,7 +6,7 @@ Live Link - https://dashboard-corpcare.vercel.app/
 <br>
 
 <br>
-<img src="../Dashboard/ReadmeAssets/Dashboard.png" alt="home">
+<img src="./ReadmeAssets/Dashboard.png" alt="home">
 
 <br>
 <br>
