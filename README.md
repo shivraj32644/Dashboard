@@ -18,8 +18,13 @@ Live Link - https://dashboard-corpcare.vercel.app/
 ### A small Video Intro of My project hope you like it
 <br>
 
-
-<iframe src="https://drive.google.com/file/d/1YUv8cDKCoaQLb3OntmZrkBgbJrmfrkVS/view?usp=share_link" frameborder="0" allowfullscreen="true"> </iframe>
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="./ReadmeAssets/Dashboard.png">
+    <source src="https://drive.google.com/file/d/1YUv8cDKCoaQLb3OntmZrkBgbJrmfrkVS/view" type="video/mp4">
+    <source src="https://drive.google.com/file/d/1YUv8cDKCoaQLb3OntmZrkBgbJrmfrkVS/view" type="video/ogg">
+    <source src="https://drive.google.com/file/d/1YUv8cDKCoaQLb3OntmZrkBgbJrmfrkVS/view" type="video/webm">
+  </video>
+</figure>
 
 
 <br>
