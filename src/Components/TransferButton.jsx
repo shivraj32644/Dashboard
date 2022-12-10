@@ -1,4 +1,4 @@
-import styles from '../Styles/SmallTransBox.module.css'
+import styles from '../Components/RecentTransactionBox/Styles/RightRecentTrans.module.css'
 import { AlertDialog, AlertDialogBody, AlertDialogCloseButton, AlertDialogContent, AlertDialogFooter, AlertDialogHeader, AlertDialogOverlay, Button, useDisclosure } from '@chakra-ui/react'
 import React, { useState } from 'react'
 

@@ -1,8 +1,11 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import style from "../Styles/LeftRecentTran.module.css";
-import jikoImg from "../Assets/jiko.png";
-export const LeftRecentTran = () => {
+import style from "./Styles/LeftRecentTran.module.css";
+import jikoImg from "../../Assets/jiko.png";
+
+
+// * This is the left most recent transaction box in which jiko mobile app transaction mentioned
+export const LeftRecentTransaction = () => {
   return (
     <Box className={style.container}>
       <Box className={style.heading}>

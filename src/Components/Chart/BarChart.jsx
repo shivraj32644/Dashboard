@@ -2,7 +2,7 @@ import { CheckboxGroup } from "@chakra-ui/react";
 import React from "react";
 import { useState } from "react";
 import { Bar } from "react-chartjs-2";
-import { savedMoney } from "../Data.js";
+import { savedMoney } from "../../Data.js";
 import { chart as ChartJS } from "chart.js/auto";
 
 export const BarChart = () => {
@@ -20,13 +20,12 @@ export const BarChart = () => {
         borderSkipped: false,
         width: "5px",
         barPercentage: 0.5,
-      
       },
 
       {
         type: "bar",
         label: "Line Dataset",
-        
+
         data: savedMoney.map((e) => e.expense),
         backgroundColor: ["#0038FF"],
         height: "300px",
@@ -43,8 +42,8 @@ export const BarChart = () => {
     maintainAspectRatio: false,
     plugins: {
       legend: {
-        display: false
-      }
+        display: false,
+      },
     },
     scales: {
       y: {
@@ -53,20 +52,18 @@ export const BarChart = () => {
           drawOnChartArea: false,
           display: false,
           drawBorder: false,
-          
-        }
-     },
+        },
+      },
       x: {
         grid: {
           drawOnChartArea: false,
           drawBorder: false,
-          display:false,
+          display: false,
           // drawTicks:false,
-        }
-      }
-    }
-   
-  }
+        },
+      },
+    },
+  };
 
   return <Bar data={data} options={opt} />;
 };

@@ -41,7 +41,7 @@
   justify-content: center;
   flex-direction: column; */
 }
-.details> p:nth-child(1) {
+.details > p:nth-child(1) {
   position: absolute;
   width: 124px;
   height: 10px;
@@ -57,7 +57,7 @@
   text-align: center;
   color: #a5a5a5;
 }
-.details> p:nth-child(2) {
+.details > p:nth-child(2) {
   position: absolute;
   width: 167px;
   height: 56px;
@@ -80,22 +80,33 @@
 .tabs {
   /* border: 1px solid #000; */
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 183px;
   height: 23px;
-  left: -40px;
-  top: 60px;
+  left: 10px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 91.5%;
+  top: 65px;
 }
-.tabList{
-  
-  width: 184px;
-  /* border: 1px solid #000; */
+.tabs h3 {
+  color: #bcbcbc;
+
+  width: 34px;
+  height: 13px;
+  display: flex;
+  align-items: center;
 }
-.tabPanel{
+
+.chart {
   position: absolute;
-width: 237px;
-height: 141.5px;
-left: 42px;
-top: 62px;
-/* bottom: 30.5px; */
-  border: 1px solid #000;
+  width: 237px;
+  height: 141.5px;
+  left: 27px;
+  top: 172px;
+  /* border: 1px solid #000; */
 }

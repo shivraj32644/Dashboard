@@ -1,16 +1,19 @@
 import React from 'react'
-import style from '../Styles/SmallTransBox.module.css'
+import style from './Styles/RightRecentTrans.module.css'
 import { Box, useDisclosure } from '@chakra-ui/react'
-import team from '../Assets/team.png'
+import team from '../../Assets/team.png'
 import { useState } from 'react'
-import { TransferButton } from './TransferButton'
-import man1 from '../Assets/man1.png'
-import man2 from '../Assets/man2.png'
-import man3 from '../Assets/man3.png'
-import man4 from '../Assets/man4.png'
-import women1 from '../Assets/women1.png'
-import plusIcon from '../Assets/plusIcon.png'
-export const SmallTransBox = () => {
+import { TransferButton } from '../TransferButton'
+import man1 from '../../Assets/man1.png'
+import man2 from '../../Assets/man2.png'
+import man3 from '../../Assets/man3.png'
+import man4 from '../../Assets/man4.png'
+import women1 from '../../Assets/women1.png'
+import plusIcon from '../../Assets/plusIcon.png'
+
+//  * This is the left most resent transaction box from which we make payment 
+
+export const RightRecentTransactionBox = () => {
   const [amt, setAmt] = useState(450)
   
   

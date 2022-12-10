@@ -1,10 +1,10 @@
 .container {
-  
+  /* border: 1px solid #000; */
   position: absolute;
   width: 291px;
   height: 301px;
   left: 1063px;
-  top: 622px;
+  top: 615px;
 }
 .container h1 {
   position: absolute;

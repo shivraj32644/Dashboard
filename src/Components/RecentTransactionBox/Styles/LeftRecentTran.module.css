@@ -10,13 +10,12 @@
   left: 0.5px;
   top: 0.5px;
   display: flex;
-align-items: center;
+  align-items: center;
 }
-.heading p{
+.heading p {
   font-weight: 800;
   font-size: 14px;
   line-height: 91.5%;
-  
 }
 .transactionBox {
   position: absolute;
@@ -65,9 +64,8 @@ align-items: center;
 }
 .TransactionDetailBox > div:nth-child(1) img {
   width: 79px;
-height: 61px;
+  height: 61px;
   border-radius: 10px;
-  
 }
 
 .TransactionDetailBox > div:nth-child(2) {
@@ -80,50 +78,44 @@ height: 61px;
   height: 55px;
 }
 .TransactionDetailBox > div:nth-child(2) > div p:nth-child(1) {
-  
   width: 116px;
   height: 19px;
-  font-family: 'Urbanist';
+  font-family: "Urbanist";
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
   line-height: 91.5%;
-  
+
   display: flex;
   align-items: center;
-  
+
   color: #000000;
-  
 }
 .TransactionDetailBox > div:nth-child(2) > div p:nth-child(2) {
-
-width: 116px;
-height: 19px;
-font-family: 'Urbanist';
-font-style: normal;
-font-weight: 500;
-font-size: 10px;
-line-height: 91.5%;
-display: flex;
-align-items: center;
-color: #BDBDBD;
-  
+  width: 116px;
+  height: 19px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 91.5%;
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
 }
 
 .TransactionDetailBox > div:nth-child(2) > p {
-
   width: 37px;
-height: 19px;
-font-style: normal;
-font-weight: 800;
-font-size: 14px;
-line-height: 91.5%;
-position: absolute;
-right: 8px;
-display: flex;
-align-items: center;
-text-align: right;
+  height: 19px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 91.5%;
+  position: absolute;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  text-align: right;
 
-color: #000000;
-
+  color: #000000;
 }
