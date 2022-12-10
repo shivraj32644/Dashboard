@@ -20,7 +20,9 @@ Live Link - https://dashboard-corpcare.vercel.app/
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="./ReadmeAssets/Dashboard.png">
-    <source src="./ReadmeAssets/Dashboard - Intro Video.mp4" type="video/mp4">
+    <source src="./ReadmeAssets/intro.mp4" type="video/mp4">
+    <source src="./ReadmeAssets/intro.ogg" type="video/ogg">
+    <source src="./ReadmeAssets/intro.webm" type="video/webm">
   </video>
 </figure>
 <br>
