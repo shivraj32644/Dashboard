@@ -10,6 +10,7 @@ export const Overview = () => {
     <Box className={style.container}>
       <Navbar />
       <AnalyticalBox />
+      <Box className={style.verticalLine}></Box>
       <RecentTransactionBox />
       <RightRecentTransactionBox />
     </Box>

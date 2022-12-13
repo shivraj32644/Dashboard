@@ -1,20 +1,10 @@
 .container{
-    width: 1440px;
+    max-width: 1440px;
     height: 1024px;
     display: flex;
     margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.238);
+    /* border: 1px solid rgba(0, 0, 0, 0.238); */
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
 }
-.verticalLine {
-    position: absolute;
-    width: 1024px;
-    height: 0px;
-    left: 484px;
-    top: 510px;
-    border: 0.5px solid #b7b7b7;
-    transform: rotate(90deg);
-  }
-  

@@ -3,13 +3,14 @@ import './App.css';
 import { Box, Container } from '@chakra-ui/react';
 import { Sidebar } from './Components/Sidebar';
 import { Overview } from './Pages/Overview';
+import { AllRoutes } from './Routes/AllRoutes';
 
 function App() {
   return (
     <Box className="container">
-      <Box className="verticalLine"></Box>
+      
       <Sidebar />
-      <Overview/>
+      <AllRoutes/>
     </Box>
   );
 }

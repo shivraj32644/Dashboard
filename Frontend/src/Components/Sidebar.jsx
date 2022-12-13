@@ -12,7 +12,7 @@ import schedule from "../Assets/schedule.png";
 import setting from "../Assets/setting.png";
 import statement from "../Assets/statement.png";
 import {NavLink } from 'react-router-dom'
-const links = [
+const main = [
   {
     id: 1,
     title: "Overview",
@@ -42,7 +42,10 @@ const links = [
     id: 6,
     title: "Statement",
     path:'/statement'
-  },
+  }
+  
+]
+const utility=[
   {
     id: 7,
     title: "Help",
@@ -68,15 +71,29 @@ const links = [
 export const Sidebar = () => {
   return (
     <Box className={styles.Container}>
-      <Box className={styles.rectangle}></Box>
       <Box className={styles.line}></Box>
       <Box className={styles.subMainBar}>
         <Box className={styles.logo}><h1>LOGO</h1>  </Box>
         <Box className={styles.child}>
+        <Box className={styles.child1}>
           {
-            links.map((e) => (<NavLink key={e.id} to={e.path} >{ e.title}</NavLink>))
+            main.map((e) => (<NavLink className={({isActive})=>isActive?styles.active:styles.default} key={e.id} to={e.path} end>
+            { e.title}</NavLink>
+            
+            ))
           }
-         
+
+        </Box>
+        <Box className={styles.child2}>
+
+        {
+          utility.map((e) => (<NavLink className={({isActive})=>isActive?styles.active:styles.default} key={e.id} to={e.path} end>
+            { e.title}</NavLink>
+            
+            ))
+          }
+
+        </Box>
         </Box>
 
       </Box>
