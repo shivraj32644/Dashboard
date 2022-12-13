@@ -11,17 +11,87 @@ import product from "../Assets/product.png";
 import schedule from "../Assets/schedule.png";
 import setting from "../Assets/setting.png";
 import statement from "../Assets/statement.png";
-
+import {NavLink } from 'react-router-dom'
+const links = [
+  {
+    id: 1,
+    title: "Overview",
+    path:'/'
+  },
+  {
+    id: 2,
+    title: "Product",
+    path:'/product'
+  },
+  {
+    id: 3,
+    title: "Analytics",
+    path:'/analytics'
+  },
+  {
+    id: 4,
+    title: "Schedule",
+    path:'/schedule'
+  },
+  {
+    id: 5,
+    title: "Payout",
+    path:'/payout'
+  },
+  {
+    id: 6,
+    title: "Statement",
+    path:'/statement'
+  },
+  {
+    id: 7,
+    title: "Help",
+    path:'/help'
+  },
+  {
+    id: 8,
+    title: "Community",
+    path:'/community'
+  },
+  {
+    id: 9,
+    title: "Settings",
+    path:'/settings'
+  },
+  {
+    id: 10,
+    title: "Logout",
+    path:'/logout'
+  },
+]
 
 export const Sidebar = () => {
   return (
-    <Box className={styles.mainBar}>
+    <Box className={styles.Container}>
       <Box className={styles.rectangle}></Box>
       <Box className={styles.line}></Box>
       <Box className={styles.subMainBar}>
         <Box className={styles.logo}><h1>LOGO</h1>  </Box>
         <Box className={styles.child}>
-          <Box className={styles.child1}>
+          {
+            links.map((e) => (<NavLink key={e.id} to={e.path} >{ e.title}</NavLink>))
+          }
+         
+        </Box>
+
+      </Box>
+    </Box>
+
+    
+    
+    
+  );
+};
+
+
+/*
+
+ <Box className={styles.child1}>
             <Box className={styles.frameI}>
               <Box className={styles.subFrameI}>
                 <img src={img1} alt="" />
@@ -93,9 +163,5 @@ export const Sidebar = () => {
 
 
         </Box>
-        </Box>
 
-      </Box>
-    </Box>
-  );
-};
+*/

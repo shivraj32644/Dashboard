@@ -2,14 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import { Box, Container } from '@chakra-ui/react';
 import { Sidebar } from './Components/Sidebar';
-import { RightSection } from './Section/RightSection';
+import { Overview } from './Pages/Overview';
 
 function App() {
   return (
     <Box className="container">
       <Box className="verticalLine"></Box>
       <Sidebar />
-      <RightSection/>
+      <Overview/>
     </Box>
   );
 }
