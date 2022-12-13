@@ -6,6 +6,7 @@ import hand from "../Assets/hand.png";
 import email from '../Assets/email.png'
 import drawer from '../Assets/drawer.png'
 import userLogo from '../Assets/userLogo.png'
+import { UserDetail } from "./UserDetail";
 export const Navbar = () => {
   return (
     <Box className={styles.container}>
@@ -22,7 +23,8 @@ export const Navbar = () => {
       <Box className={styles.RightBar}>
         <img style={{marginLeft:"0px"}} src={email} alt="" />
         <img style={{marginLeft:"-10px"}} src={drawer} alt="" />
-        <img style={{marginLeft:"-13px"}} src={userLogo} alt="" />
+        {/* <img style={{marginLeft:"-13px"}} src={userLogo} alt="" /> */}
+        <UserDetail/>
       </Box>
     </Box>
   );
