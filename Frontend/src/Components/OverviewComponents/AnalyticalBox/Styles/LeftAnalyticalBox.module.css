@@ -2,15 +2,16 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  flex-wrap: wrap;
   padding: 0px;
   gap: 28px;
   /* border: 1px solid #000; */
-  width: 655px;
+  max-width: 40.9375rem;
   height: 319px;
 }
 .box {
   /* border: 1px solid #000; */
-  width: 418px;
+  max-width: 418px;
   height: 319px;
 }
 .title {

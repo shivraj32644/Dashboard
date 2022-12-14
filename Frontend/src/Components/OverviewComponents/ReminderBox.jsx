@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../Styles/reminder.module.css";
-import corpcare from "../Assets/corpcare.png";
+import styles from "../../Styles/reminder.module.css";
+import corpcare from "../../Assets/corpcare.png";
 import { useToast } from "@chakra-ui/react";
 export const ReminderBox = () => {
   const toast = useToast();

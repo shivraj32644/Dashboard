@@ -1,8 +1,8 @@
 import { Box } from "@chakra-ui/react";
 import React, { useState } from "react";
 import styles from "./Styles/MidRecentTrans.module.css";
-import { LineChart } from "../Chart/LineChart";
-import { recentTransactionData } from "../../Data.js";
+import { LineChart } from "../../Chart/LineChart";
+import { recentTransactionData } from "../../../Data.js";
 
 // * This is mid recent Transaction box in which we used line chart
 

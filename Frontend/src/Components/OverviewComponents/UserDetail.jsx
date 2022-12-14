@@ -13,7 +13,7 @@ import {
   Box,
   Divider,
 } from "@chakra-ui/react";
-import userLogo from "../Assets/userLogo.png";
+import userLogo from "../../Assets/userLogo.png";
 export const UserDetail = () => {
   return (
     <Popover>

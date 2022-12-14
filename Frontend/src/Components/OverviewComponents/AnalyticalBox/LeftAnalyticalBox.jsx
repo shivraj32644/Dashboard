@@ -2,8 +2,8 @@ import { Box } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import styles from "./Styles/LeftAnalyticalBox.module.css";
 import { ReminderBox } from "../ReminderBox";
-import { recentTransactionData } from "../../Data";
-import { LineChart } from "../Chart/LineChart";
+import { recentTransactionData } from "../../../Data";
+import { LineChart } from "../../Chart/LineChart";
 
 
 // * This is left analytical box with line chart which present left side of reminder box

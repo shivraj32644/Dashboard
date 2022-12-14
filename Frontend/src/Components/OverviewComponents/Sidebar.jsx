@@ -1,16 +1,16 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import styles from "../Styles/sidebar.module.css";
-import img1 from "../Assets/img1.png";
-import analytics1 from "../Assets/analytics1.png";
-import community from "../Assets/community.png";
-import help from "../Assets/help.png";
-import logout from "../Assets/logout.png";
-import payout from "../Assets/payout.png";
-import product from "../Assets/product.png";
-import schedule from "../Assets/schedule.png";
-import setting from "../Assets/setting.png";
-import statement from "../Assets/statement.png";
+import styles from "../../Styles/sidebar.module.css";
+import img1 from "../../Assets/img1.png";
+import analytics1 from "../../Assets/analytics1.png";
+import community from "../../Assets/community.png";
+import help from "../../Assets/help.png";
+import logout from "../../Assets/logout.png";
+import payout from "../../Assets/payout.png";
+import product from "../../Assets/product.png";
+import schedule from "../../Assets/schedule.png";
+import setting from "../../Assets/setting.png";
+import statement from "../../Assets/statement.png";
 import {NavLink } from 'react-router-dom'
 const main = [
   {
