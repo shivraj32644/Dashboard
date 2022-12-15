@@ -11,25 +11,23 @@ export const EarningAnalyticalBox = () => {
     datasets: [
       {
         type: "bar",
-        label: "Bar Dataset",
+        label: "Saving",
         data: savedMoney.map((e) => e.saved),
         backgroundColor: ["#00D1FF"],
         height: "300px",
         borderRadius: Number.MAX_VALUE,
-        borderSkipped: false,
         width: "5px",
         barPercentage: 0.5,
       },
 
       {
         type: "bar",
-        label: "Line Dataset",
+        label: "Expense",
 
         data: savedMoney.map((e) => e.expense),
         backgroundColor: ["#0038FF"],
         height: "300px",
         borderRadius: Number.MAX_VALUE,
-        borderSkipped: false,
         width: "5px",
         barPercentage: 0.5,
       },
@@ -46,19 +44,13 @@ export const EarningAnalyticalBox = () => {
     },
     scales: {
       y: {
-        beginAtZero: true,
         grid: {
-          drawOnChartArea: false,
           display: false,
-          drawBorder: false,
         },
       },
       x: {
         grid: {
-          drawOnChartArea: false,
-          drawBorder: false,
           display: false,
-          // drawTicks:false,
         },
       },
     },

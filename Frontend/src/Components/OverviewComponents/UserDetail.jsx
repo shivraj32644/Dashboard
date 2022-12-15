@@ -33,8 +33,9 @@ export const UserDetail = () => {
                   width: "100px",
                   borderRadius: "10px",
                   //   marginLeft: "34%",
+                  objectFit:"cover"
                 }}
-                src="https://i.pinimg.com/236x/2f/57/8d/2f578d07945132849b05fbdaf78cba38.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/VijayKedia.jpg/330px-VijayKedia.jpg"
                 alt=""
               />
               <h1
@@ -46,7 +47,7 @@ export const UserDetail = () => {
                 }}
               >
                 {" "}
-                Mr. James Bond
+                Mr. Vijay Kedia
               </h1>
             </Box>
 
@@ -71,7 +72,7 @@ export const UserDetail = () => {
               }}
             >
               {" "}
-              bond@gmail.com
+              vijay@gmail.com
             </h1>
             <h1
               style={{
@@ -81,7 +82,7 @@ export const UserDetail = () => {
               }}
             >
               {" "}
-              XYZ company
+              Kedia Securities Pvt. Ltd.
             </h1>
           </Box>
         </PopoverBody>

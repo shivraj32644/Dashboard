@@ -56,17 +56,12 @@ export const LeftAnalyticalBox = () => {
         beginAtZero: true,
         // display:false,
         grid: {
-          drawOnChartArea: false,
           display: false,
-          drawBorder: false,
         },
       },
       x: {
         grid: {
-          drawOnChartArea: false,
-          drawBorder: false,
           display: false,
-          // drawTicks:false,
         },
         ticks: {
           font: {

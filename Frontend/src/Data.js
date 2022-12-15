@@ -147,3 +147,62 @@ export const suggestionData=[
     "Kian",
     "Darsh",
 ]
+
+export const portfolioData = [
+  {
+    id: 1,
+    name: "TCS",
+    Quantity: 36,
+    price: 3327,
+    cap: "Large Cap",
+    color:"green"
+  },
+  {
+    id: 2,
+    name: "KPITTECH",
+    Quantity: 42,
+    price: 711,
+    cap: "Small Cap",
+    color:"blue"
+  },
+  {
+    id: 3,
+    name: "DEEPAKFERT",
+    Quantity: 64,
+    price: 809,
+    cap: "MEdiam Cap",
+    color:"#273c75"
+  },
+  {
+    id: 4,
+    name: "HDFC",
+    Quantity: 36,
+    price: 2714,
+    cap: "Large Cap",
+    color:"#1289A7"
+  },
+  {
+    id: 5,
+    name: "VEDL",
+    Quantity: 24,
+    price: 313,
+    cap: "Mediam Cap",
+    color:"#006266"
+  },
+  {
+    id: 6,
+    name: "L&T",
+    Quantity: 86,
+    price: 2199,
+    cap: "Large Cap",
+    color:"#e15f41"
+  },
+  {
+    id: 7,
+    name: "ADANIPORTS",
+    Quantity: 92,
+    price: 901,
+    cap: "Large Cap",
+    color:"#ffd32a"
+  }
+]

@@ -40,9 +40,7 @@ export const MidRecentTransaction = () => {
         beginAtZero: true,
         display: false,
         grid: {
-          drawOnChartArea: false,
           display: false,
-          drawBorder: false,
         },
         ticks: {
           display: false,
@@ -50,10 +48,7 @@ export const MidRecentTransaction = () => {
       },
       x: {
         grid: {
-          drawOnChartArea: false,
-          drawBorder: false,
           display: false,
-          // drawTicks:false,
         },
         ticks: {
           font: {
