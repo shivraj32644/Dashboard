@@ -20,8 +20,8 @@ const main = [
   },
   {
     id: 2,
-    title: "Product",
-    path:'/product'
+    title: "Risk & Reward",
+    path:'/riskReward'
   },
   {
     id: 3,

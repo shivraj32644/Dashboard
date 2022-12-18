@@ -1,9 +1,10 @@
 .container{
     max-width: 1440px;
-    height: 1024px;
+    /* height: 1024px; */
     display: flex;
+    /* column-gap: 10px; */
+    border: 1px solid #000;
     margin: auto;
-    /* border: 1px solid rgba(0, 0, 0, 0.238); */
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;

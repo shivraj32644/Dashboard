@@ -1,0 +1,39 @@
+.container {
+  max-width: 1200px;
+  width: fit-content;
+  /* height: 500px; */
+  /* overflow: auto; */
+  /* display: block; */
+  margin-top: 90px;
+  margin-left: 230px; 
+    overflow-x: auto;
+    white-space: nowrap; 
+}
+
+
+table{
+  border: 1px solid rgba(0, 0, 0, 0.299);
+  text-align: center;
+}
+tr{
+  border: 1px solid rgba(0, 0, 0, 0.299);
+}
+th{
+  border: 1px solid rgba(0, 0, 0, 0.299);
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  overflow: auto;
+  height: 80px;
+  padding: 10px;
+}
+td{
+  border: 1px solid rgba(0, 0, 0, 0.299);
+  overflow: auto;
+  height: 40px;
+}
+td:nth-child(1){
+  border: 1px solid rgba(0, 0, 0, 0.299);
+  width: 600px;
+}

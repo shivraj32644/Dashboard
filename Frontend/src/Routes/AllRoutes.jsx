@@ -6,7 +6,7 @@ import { Help } from '../Pages/Help'
 import { Logout } from '../Pages/Logout'
 import { Overview } from '../Pages/Overview'
 import { Payout } from '../Pages/Payout'
-import { Product } from '../Pages/Product'
+import { RiskReward } from '../Pages/RiskReward'
 import { Schedules } from '../Pages/Schedules'
 import { Setting } from '../Pages/Setting'
 import { Statements } from '../Pages/Statements'
@@ -15,7 +15,7 @@ export const AllRoutes = () => {
       <div>
           <Routes>
               <Route path='/' element={<Overview/>} ></Route>
-              <Route path='/product' element={<Product/>} ></Route>
+              <Route path='/riskReward' element={<RiskReward/>} ></Route>
               <Route path='/analytics' element={<Analytics/>} ></Route>
               <Route path='/schedule' element={<Schedules/>} ></Route>
               <Route path='/payout' element={<Payout/>} ></Route>
