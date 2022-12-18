@@ -378,7 +378,7 @@ export const riskRewardData = [
   {
     id: 9,
     fundName: "Aditya Birla SL Liquid Fund",
-    CreditRiskScore: 1.0,
+    CreditRiskScore: 3.0,
     StressSectorScore: 1.0,
     SensitiveIssuerScore: 6.0,
     InterestRateScore: 5.0,
@@ -400,7 +400,7 @@ export const riskRewardData = [
   {
     id: 10,
     fundName: "Kotak Liquid Fund ",
-    CreditRiskScore: 3.0,
+    CreditRiskScore: 1.0,
     StressSectorScore: 9.0,
     SensitiveIssuerScore: 4.0,
     InterestRateScore: 2.0,
@@ -424,7 +424,7 @@ export const riskRewardData = [
     CreditRiskScore: 4.0,
     StressSectorScore: 2.0,
     SensitiveIssuerScore: 1.0,
-    InterestRateScore: 1.0,
+    InterestRateScore: 3.0,
     LiquidityScore: 6.0,
     CompositeConcentrationRiskScore: 5.3,
     StandardDeviationScore: 5.0,

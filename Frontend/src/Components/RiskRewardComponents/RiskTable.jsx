@@ -22,47 +22,46 @@ export const RiskTable = () => {
   // const desc = <AiOutlineArrowDown/>
   const ascendingColor = (value) => {
     let color = "";
+    
 
     switch (true) {
       case value <= 1:
-        color = "rgb(17, 201, 17)";
+        color = "#069c7b";
         break;
       case value <= 2 && value > 1:
-        color = "#abef68";
+        color = "#0ac99f";
         break;
       case value <= 3 && value > 2:
-        color = "#b7f17c";
+        color = "#12ddb1";
         break;
       case value <= 4 && value > 3:
-        color = " #b8e889";
+        color = "#24ecc1";
         break;
       case value <= 5 && value > 4:
-        color = "#def1cb";
+        color = "#3ef8d0";
         break;
       case value <= 6 && value > 5:
-        color = "#f1cbcb";
+        color = "#62f6d6";
         break;
       case value <= 7 && value > 6:
-        color = "#efb4b4";
+        color = "#edabb7";
         break;
       case value <= 8 && value > 7:
-        color = "#eda9a9";
+        color = "#f091a3";
         break;
       case value <= 9 && value > 8:
-        color = " #f4a0a0";
+        color = "#ec7b8f";
         break;
       case value <= 10 && value > 9:
-        color = "#fc9393";
+        color = "#eb637c";
         break;
       case value <= 11 && value > 10:
-        color = "#ff8383";
+        color = "#f65270";
         break;
-      case value <= 12 && value > 12:
-        color = "red";
+      case value > 11:
+        color = "#f65270";
         break;
-      case value <= 13 && value > 13:
-        color = "red";
-        break;
+      
       default:
         break;
     }
@@ -74,52 +73,50 @@ export const RiskTable = () => {
 
     switch (true) {
       case value <= 1:
-        color = "red";
+        color = "#f65270";
         break;
       case value <= 2 && value > 1:
-        color = "#ff8383";
+        color = "#eb637c";
         break;
       case value <= 3 && value > 2:
-        color = "#fc9393";
+        color = "#ec7b8f";
         break;
       case value <= 4 && value > 3:
-        color = " #f4a0a0";
+        color = "#f091a3";
         break;
       case value <= 5 && value > 4:
-        color = "#eda9a9";
+        color = "#edabb7";
         break;
       case value <= 6 && value > 5:
-        color = "#efb4b4";
+        color = "#62f6d6";
         break;
       case value <= 7 && value > 6:
-        color = "#f1cbcb";
+        color = "#3ef8d0";
         break;
       case value <= 8 && value > 7:
-        color = "#def1cb";
+        color = "#24ecc1";
         break;
       case value <= 9 && value > 8:
-        color = " #b8e889";
+        color = "#12ddb1";
         break;
       case value <= 10 && value > 9:
-        color = "#b7f17c";
+        color = "#0ac99f";
         break;
       case value <= 11 && value > 10:
-        color = "#abef68";
+        color = "#069c7b";
         break;
-      case value <= 12 && value > 12:
-        color = "rgb(17, 201, 17)";
+      case value > 11:
+        color = "#069c7b";
         break;
-      case value <= 13 && value > 13:
-        color = "rgb(17, 201, 17)";
-        break;
+      
       default:
         break;
     }
 
     return color;
   };
-  const handleClick = (value, order) => {
-    console.log(order);
+  const handleClick = (value, order,arrow) => {
+    
     setOrder(!order);
     order ? setArrow(<AiOutlineArrowDown />) : setArrow(<AiOutlineArrowUp />);
     const newData = data.sort((a, b) => {

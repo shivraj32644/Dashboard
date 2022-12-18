@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 .Container {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   box-sizing: border-box;
   position: relative;
   width: 247px;
@@ -10,7 +10,7 @@
   border-right: 1px solid #e6e6e6;
 }
 
-.rectangle {
+/* .rectangle {
   border: 1px solid #000;
   position: absolute;
   width: 4px;
@@ -18,7 +18,7 @@
   left: 0px;
   top: 190px;
   background: #0500ff;
-}
+} */
 .line {
   border: 1px solid #000;
   position: absolute;
