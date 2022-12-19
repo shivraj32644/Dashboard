@@ -7,6 +7,7 @@ import {
   Th,
   Thead,
   Tr,
+  useMediaQuery,
 } from "@chakra-ui/react";
 import * as React from "react";
 import { useState } from "react";
@@ -18,7 +19,7 @@ export const RiskTable = () => {
   const [order, setOrder] = useState(false);
   const [data, setData] = useState(riskRewardData);
   const [arrow, setArrow] = useState(<AiOutlineArrowUp />);
-
+  const [isLargerThan1280] = useMediaQuery('(min-width: 1320px)')
   // const desc = <AiOutlineArrowDown/>
   const ascendingColor = (value) => {
     let color = "";
@@ -115,8 +116,10 @@ export const RiskTable = () => {
 
     return color;
   };
-  const handleClick = (value, order,arrow) => {
-    
+  const handleClick = (value, order,e,text) => {
+    console.log(e.target.className)
+    e.target.className = e.target.className === "active" ? "default" : "active"
+    e.target.innerHTML = e.target.className === "active" ? text+" ▲" : text+" ▼"
     setOrder(!order);
     order ? setArrow(<AiOutlineArrowDown />) : setArrow(<AiOutlineArrowUp />);
     const newData = data.sort((a, b) => {
@@ -138,61 +141,61 @@ export const RiskTable = () => {
     //   console.log(newData);
   };
   return (
-    <div className={styles.container}>
-      <table >
+    <div    className={styles.container}>
+      <table style={isLargerThan1280 ? {} : {marginLeft:"50px"}} >
           <tr>
-            <th>Liquid Fund – Direct Plan</th>
-            <th onClick={() => handleClick("CreditRiskScore", order)}>
+            <th className={styles.active} >Liquid Fund – Direct Plan</th>
+            <th className="active" onClick={(event) => handleClick("CreditRiskScore", order,event,"Credit Risk Score")}>
               Credit Risk Score
             </th>
-            <th onClick={() => handleClick("StressSectorScore", order)}>
+            <th className="active" onClick={(event) => handleClick("StressSectorScore", order,event,"Stressed Sector Score")}>
               Stressed Sector Score
             </th>
-            <th onClick={() => handleClick("SensitiveIssuerScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("SensitiveIssuerScore", order,event,"Sensitive Issuer Score")}>
               Sensitive Issuer Score
             </th>
-            <th onClick={() => handleClick("InterestRateScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("InterestRateScore", order,event,"Interest Rate Risk Score")}>
               Interest Rate Risk Score{" "}
             </th>
-            <th onClick={() => handleClick("LiquidityScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("LiquidityScore", order,event,"Liquidity Score")}>
               Liquidity Score
             </th>
-            <th
-              onClick={() =>
-                handleClick("CompositeConcentrationRiskScore", order)
+            <th className={styles.active}
+              onClick={(event) =>
+                handleClick("CompositeConcentrationRiskScore", order,event,"Composite Concentration Risk Score")
               }
             >
               Composite Concentration Risk Score
             </th>
-            <th onClick={() => handleClick("StandardDeviationScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("StandardDeviationScore", order,event,"Standard Deviation Score")}>
               Standard Deviation Score
             </th>
-            <th onClick={() => handleClick("AssetClassExposureScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("AssetClassExposureScore", order,event,"Asset Class Exposure Score")}>
               Asset Class Exposure Score
             </th>
-            <th onClick={() => handleClick("TotalRiskScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("TotalRiskScore", order,event,"Total Risk Score")}>
               Total Risk Score
             </th>
-            <th onClick={() => handleClick("RankBasedOnRisk", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("RankBasedOnRisk", order,event,"Rank based on Risk")}>
               Rank based on Risk
             </th>
-            <th onClick={() => handleClick("YTM")}>YTM</th>
-            <th onClick={() => handleClick("CompositePerformanceScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("YTM")}>YTM</th>
+            <th className={styles.active} onClick={(event) => handleClick("CompositePerformanceScore", order,event,"Composite Performance Score")}>
               Composite Performance Score
             </th>
-            <th onClick={() => handleClick("ConsistencyScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("ConsistencyScore", order,event,"Consistency Score")}>
               Consistency Score
             </th>
-            <th onClick={() => handleClick("TotalReturnScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("TotalReturnScore", order,event,"Total Returns Score")}>
               Total Returns Score
             </th>
-            <th onClick={() => handleClick("RankBasedOnReturns", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("RankBasedOnReturns", order,event,"Rank based on Returns")}>
               Rank based on Returns
             </th>
-            <th onClick={() => handleClick("OverallScore", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("OverallScore", order,event,"Overall Score")}>
               Overall Score
             </th>
-            <th onClick={() => handleClick("OverallRanking", order)}>
+            <th className={styles.active} onClick={(event) => handleClick("OverallRanking", order,event,"Overall Ranking")}>
               Overall Ranking
             </th>
           </tr>

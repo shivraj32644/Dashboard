@@ -1,11 +1,19 @@
 .container{
     max-width: 1440px;
-    /* height: 1024px; */
     display: flex;
-    /* column-gap: 10px; */
-    /* border: 1px solid #000; */
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
+}
+
+.left{
+    /* border: 1px solid #000; */
+    width: 17.4%;
+}
+.right{
+    /* border: 1px solid #000; */
+    width: 80%;
+    margin: auto;
+    
 }

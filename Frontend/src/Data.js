@@ -9,7 +9,7 @@ export const savedMoney = [
     id: 2,
     day: "M",
     saved: 20,
-    expense: 25,
+    expense: 55,
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ export const recentTransactionData = [
     Week: 2,
     Month: "Nov 4",
     Year: "2019",
-    Amount: 20,
+    Amount: 50,
   },
   {
     id: 3,
@@ -151,7 +151,7 @@ export const portfolioData = [
   {
     id: 1,
     name: "TCS",
-    Quantity: 36,
+    Quantity: 6,
     price: 3327,
     cap: "Large Cap",
     color: "green",
@@ -460,5 +460,26 @@ export const riskRewardData = [
     OverallScore: 3.7,
     OverallRanking:12,
   },
+  {
+    id: 13,
+    fundName: "Edelweiss Liquid Fund",
+    CreditRiskScore: 2.0,
+    StressSectorScore: 6.0,
+    SensitiveIssuerScore: 4.0,
+    InterestRateScore: 8.5,
+    LiquidityScore: 4.0,
+    CompositeConcentrationRiskScore: 1.7,
+    StandardDeviationScore: 6.0,
+    AssetClassExposureScore: 7.5,
+    TotalRiskScore: 4.4,
+    RankBasedOnRisk: 9,
+    YTM: 2.0,
+    CompositePerformanceScore: 3.4,
+    ConsistencyScore:1.0,
+    TotalReturnScore: 2.1,
+    RankBasedOnReturns: 12,
+    OverallScore: 3.7,
+    OverallRanking:13,
+  }
+  
 ];
-
